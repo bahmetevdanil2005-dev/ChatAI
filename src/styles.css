@@ -187,3 +187,40 @@ button:focus-visible,a:focus-visible{outline:2px solid currentColor;outline-offs
 @media(max-width:600px){
   .bottom-dock{height:72px;border-radius:25px}
 }
+
+
+/* Pull-to-refresh: soft glass indicator and shimmering loading cards */
+.pull-indicator{
+  display:flex;align-items:center;justify-content:center;gap:11px;overflow:hidden;
+  margin:0 auto 12px;color:var(--muted);font-size:11px;font-weight:700;
+  transition:height .22s cubic-bezier(.2,.8,.2,1),opacity .2s;
+}
+.pull-spinner{
+  width:18px;height:18px;border:2px solid var(--line);border-top-color:var(--ink);
+  border-radius:50%;transform:rotate(0deg);transition:transform .2s;
+}
+.pull-indicator.is-loading .pull-spinner{animation:pull-spin .75s linear infinite}
+@keyframes pull-spin{to{transform:rotate(360deg)}}
+.skeleton-card{position:relative;overflow:hidden;pointer-events:none}
+.skeleton-line,.skeleton-tags i{
+  display:block;position:relative;overflow:hidden;border-radius:999px;
+  background:var(--soft);
+}
+.skeleton-title{width:58%;height:16px;margin:4px 0 17px}
+.skeleton-copy{width:88%;height:9px;margin:10px 0}
+.skeleton-copy.short{width:56%}
+.skeleton-tags{display:flex;gap:8px;margin-top:20px}
+.skeleton-tags i{width:66px;height:22px;border-radius:999px}
+.skeleton-line:after,.skeleton-tags i:after{
+  content:"";position:absolute;inset:0;transform:translateX(-110%);
+  background:linear-gradient(105deg,transparent 20%,rgba(255,255,255,.8) 48%,rgba(255,255,255,.18) 58%,transparent 78%);
+  filter:blur(2px);animation:skeleton-shine 1.25s ease-in-out infinite;
+}
+.skeleton-card:nth-child(2) .skeleton-line:after,.skeleton-card:nth-child(2) .skeleton-tags i:after{animation-delay:.16s}
+.skeleton-card:nth-child(3) .skeleton-line:after,.skeleton-card:nth-child(3) .skeleton-tags i:after{animation-delay:.32s}
+@keyframes skeleton-shine{to{transform:translateX(110%)}}
+.theme-dark .skeleton-line,.theme-dark .skeleton-tags i{background:#181818}
+.theme-dark .skeleton-line:after,.theme-dark .skeleton-tags i:after{
+  background:linear-gradient(105deg,transparent 20%,rgba(255,255,255,.2) 48%,rgba(255,255,255,.06) 58%,transparent 78%);
+}
+@media(prefers-reduced-motion:reduce){.pull-indicator.is-loading .pull-spinner,.skeleton-line:after,.skeleton-tags i:after{animation:none}}
