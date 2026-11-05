@@ -289,7 +289,9 @@ button:focus-visible,a:focus-visible{outline:2px solid currentColor;outline-offs
 /* Unified marketplace source status */
 .source-strip{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:-8px 0 20px;padding:10px 13px;border:1px solid var(--line);border-radius:13px;background:var(--surface);color:#888;font-size:10px;font-weight:600}
 .source-live{display:inline-flex;align-items:center;gap:7px;color:var(--ink)}
-.source-live i{width:7px;height:7px;border-radius:50%;background:#aaa;box-shadow:0 0 0 3px #aaa1c}\n.source-live.is-live i{background:#22a06b;box-shadow:0 0 0 3px #22a06b1c}\n.source-live small{font-size:9px;color:#999;font-weight:500}
+.source-live i{width:7px;height:7px;border-radius:50%;background:#aaa;box-shadow:0 0 0 3px #aaa1c}
+.source-live.is-live i{background:#22a06b;box-shadow:0 0 0 3px #22a06b1c}
+.source-live small{font-size:9px;color:#999;font-weight:500}
 .source-pill{padding:3px 7px;border:1px solid var(--line);border-radius:999px;color:var(--ink);font-size:9px;font-weight:700}
 .theme-dark .source-strip{background:#050505;border-color:#252525;color:#aaa}
 @media(max-width:600px){.source-strip{margin:-6px 0 16px;padding:9px 11px;font-size:9px}}
