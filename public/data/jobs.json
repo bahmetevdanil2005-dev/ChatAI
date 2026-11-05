@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T20:42:02.971489+00:00",
+  "updatedAt": "2026-11-05T21:40:04.731802+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,24 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528045/raskrutka-gruppyi-tg-nabor-2000-jivyih-uchastnikov.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Раскрутка группы ТГ, набор 2000 живых участников. (для всех)",
+      "company": "FL.ru",
+      "description": "Раскрутка группы ТГ, набор 2000 живых участников. Региональная группа по гео.",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Thu, 05 Nov 2026 20:36:54 GMT",
+      "publishedAt": "2026-11-05T20:36:54+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528045/raskrutka-gruppyi-tg-nabor-2000-jivyih-uchastnikov.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528199/jertvennyiy-stol-.html",
       "source": "fl_ru",
@@ -1071,24 +1089,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528080/razrabotat-edinyiy-komplekt-prazdnichnyih-otkryitok-v-firmennom-stile-kompanii-dlya-sotssetey.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528077/verstka-i-schetchik-metriki-.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "верстка и счетчик метрики (Бюджет: 3 500 ₽)",
-      "company": "FL.ru",
-      "description": "Создание кнопки сделать заказ с переходом в месенджер или на почту e-mail + создание счетчики метрики",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Thu, 05 Nov 2026 07:10:50 GMT",
-      "publishedAt": "2026-11-05T07:10:50+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528077/verstka-i-schetchik-metriki-.html"
     }
   ]
 }
