@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { Search, SlidersHorizontal, Bookmark, BookmarkCheck, ExternalLink, Clock3, Wallet, MapPin, Sparkles, BriefcaseBusiness, ChevronDown, X, Bell, LayoutGrid, List, ArrowUpRight, Zap, Code2, PenTool, Megaphone, BarChart3 } from 'lucide-react';
 const jobs=[
 {id:1,title:'Разработать лендинг для SaaS-продукта',company:'Northstar Studio',category:'Разработка',budget:'$800–1 200',low:800,high:1200,type:'Фиксированная цена',level:'Средний',posted:'2 часа назад',duration:'1–2 недели',skills:['React','Tailwind CSS','Figma'],description:'Нужен современный адаптивный лендинг для B2B SaaS. Есть дизайн в Figma, требуется качественная реализация и базовая SEO-оптимизация.',url:'https://www.upwork.com/nx/search/jobs/?q=react%20landing%20page'},
