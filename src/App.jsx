@@ -1,30 +1,65 @@
 import React, { useMemo, useState } from 'react';
-import { Search, SlidersHorizontal, Bookmark, BookmarkCheck, ExternalLink, Clock3, Wallet, MapPin, BriefcaseBusiness, ChevronDown, X, Bell, LayoutGrid, List, ArrowUpRight, Zap, Code2, PenTool, Megaphone, BarChart3 } from 'lucide-react';
-const jobs=[
-{id:1,title:'Разработать лендинг для SaaS-продукта',company:'Northstar Studio',category:'Разработка',budget:'$800–1 200',low:800,high:1200,type:'Фиксированная цена',level:'Средний',posted:'2 часа назад',duration:'1–2 недели',skills:['React','Tailwind CSS','Figma'],description:'Нужен современный адаптивный лендинг для B2B SaaS. Есть дизайн в Figma, требуется качественная реализация и базовая SEO-оптимизация.',url:'https://www.upwork.com/nx/search/jobs/?q=react%20landing%20page'},
-{id:2,title:'Дизайн интерфейса мобильного приложения',company:'Bright Labs',category:'Дизайн',budget:'$500–900',low:500,high:900,type:'Фиксированная цена',level:'Средний',posted:'4 часа назад',duration:'2–3 недели',skills:['Figma','UI/UX','Prototyping'],description:'Ищем UI/UX-дизайнера для создания чистого интерфейса финтех-приложения. Важно портфолио с мобильными продуктами.',url:'https://www.upwork.com/nx/search/jobs/?q=mobile%20app%20design'},
-{id:3,title:'Написать SEO-статьи для блога',company:'Growth Market',category:'Тексты',budget:'$35–50 / час',low:35,high:50,type:'Почасовая оплата',level:'Начальный',posted:'5 часов назад',duration:'Долгосрочно',skills:['SEO','Copywriting','Research'],description:'Регулярные статьи на английском языке о маркетинге и технологиях. Нужны грамотный язык, самостоятельный ресёрч и понимание SEO.',url:'https://www.upwork.com/nx/search/jobs/?q=SEO%20writing'},
-{id:4,title:'Настроить рекламу Google Ads',company:'Urban Goods',category:'Маркетинг',budget:'$400–700',low:400,high:700,type:'Фиксированная цена',level:'Эксперт',posted:'Сегодня',duration:'1 месяц',skills:['Google Ads','Analytics','PPC'],description:'Запуск и оптимизация рекламных кампаний для интернет-магазина. Цель — снизить CPA и увеличить конверсию.',url:'https://www.upwork.com/nx/search/jobs/?q=Google%20Ads'},
-{id:5,title:'Создать Telegram-бота для поддержки',company:'Orbit Systems',category:'Разработка',budget:'$600–1 000',low:600,high:1000,type:'Фиксированная цена',level:'Средний',posted:'Вчера',duration:'2 недели',skills:['Python','Telegram API','PostgreSQL'],description:'Бот с FAQ, передачей диалога оператору и простой админ-панелью. Техническое задание готово.',url:'https://www.upwork.com/nx/search/jobs/?q=telegram%20bot'},
-{id:6,title:'Монтаж коротких видео для соцсетей',company:'Social House',category:'Видео',budget:'$25–40 / час',low:25,high:40,type:'Почасовая оплата',level:'Начальный',posted:'Вчера',duration:'Долгосрочно',skills:['Premiere Pro','Reels','After Effects'],description:'Пакетный монтаж вертикальных роликов 30–60 секунд. Предоставляем исходники и референсы, важны темп и чувство ритма.',url:'https://www.upwork.com/nx/search/jobs/?q=short%20video%20editor'},
-{id:7,title:'Собрать дашборд продаж в Looker Studio',company:'DataPeak',category:'Аналитика',budget:'$300–500',low:300,high:500,type:'Фиксированная цена',level:'Средний',posted:'2 дня назад',duration:'1 неделя',skills:['Looker Studio','SQL','Google Sheets'],description:'Объединить данные из нескольких источников и собрать понятный дашборд с ключевыми метриками бизнеса.',url:'https://www.upwork.com/nx/search/jobs/?q=Looker%20Studio'},
-{id:8,title:'Верстка страниц интернет-магазина',company:'Mono Commerce',category:'Разработка',budget:'$30–45 / час',low:30,high:45,type:'Почасовая оплата',level:'Средний',posted:'2 дня назад',duration:'1 месяц',skills:['HTML','CSS','JavaScript'],description:'Нужна адаптивная верстка каталога и карточки товара по макетам. Внимание к деталям и кроссбраузерности.',url:'https://www.upwork.com/nx/search/jobs/?q=frontend%20developer'}
+import { Search, Bookmark, BookmarkCheck, ExternalLink, Clock3, Wallet, SlidersHorizontal, LayoutGrid, List, X } from 'lucide-react';
+
+const jobs = [
+  {id:1,title:'Разработать лендинг для SaaS-продукта',company:'Northstar Studio',category:'Разработка',budget:'$800–1 200',low:800,type:'Фиксированная цена',level:'Средний',posted:'2 часа назад',duration:'1–2 недели',skills:['React','Tailwind CSS','Figma'],description:'Адаптивный лендинг для B2B SaaS по готовому макету Figma.',url:'https://www.upwork.com/nx/search/jobs/?q=react%20landing%20page'},
+  {id:2,title:'Дизайн интерфейса мобильного приложения',company:'Bright Labs',category:'Дизайн',budget:'$500–900',low:500,type:'Фиксированная цена',level:'Средний',posted:'4 часа назад',duration:'2–3 недели',skills:['Figma','UI/UX','Prototyping'],description:'UI/UX-дизайн финтех-приложения. Нужен опыт мобильных продуктов.',url:'https://www.upwork.com/nx/search/jobs/?q=mobile%20app%20design'},
+  {id:3,title:'Написать SEO-статьи для блога',company:'Growth Market',category:'Тексты',budget:'$35–50 / час',low:35,type:'Почасовая оплата',level:'Начальный',posted:'5 часов назад',duration:'Долгосрочно',skills:['SEO','Copywriting','Research'],description:'Статьи на английском языке о маркетинге и технологиях.',url:'https://www.upwork.com/nx/search/jobs/?q=SEO%20writing'},
+  {id:4,title:'Настроить рекламу Google Ads',company:'Urban Goods',category:'Маркетинг',budget:'$400–700',low:400,type:'Фиксированная цена',level:'Эксперт',posted:'Сегодня',duration:'1 месяц',skills:['Google Ads','Analytics','PPC'],description:'Настройка и оптимизация рекламных кампаний интернет-магазина.',url:'https://www.upwork.com/nx/search/jobs/?q=Google%20Ads'},
+  {id:5,title:'Создать Telegram-бота для поддержки',company:'Orbit Systems',category:'Разработка',budget:'$600–1 000',low:600,type:'Фиксированная цена',level:'Средний',posted:'Вчера',duration:'2 недели',skills:['Python','Telegram API','PostgreSQL'],description:'Бот с FAQ, передачей диалога оператору и админ-панелью.',url:'https://www.upwork.com/nx/search/jobs/?q=telegram%20bot'},
+  {id:6,title:'Монтаж коротких видео для соцсетей',company:'Social House',category:'Видео',budget:'$25–40 / час',low:25,type:'Почасовая оплата',level:'Начальный',posted:'Вчера',duration:'Долгосрочно',skills:['Premiere Pro','Reels','After Effects'],description:'Монтаж вертикальных роликов длительностью 30–60 секунд.',url:'https://www.upwork.com/nx/search/jobs/?q=short%20video%20editor'},
+  {id:7,title:'Собрать дашборд продаж в Looker Studio',company:'DataPeak',category:'Аналитика',budget:'$300–500',low:300,type:'Фиксированная цена',level:'Средний',posted:'2 дня назад',duration:'1 неделя',skills:['Looker Studio','SQL','Google Sheets'],description:'Дашборд продаж с данными из нескольких источников.',url:'https://www.upwork.com/nx/search/jobs/?q=Looker%20Studio'},
+  {id:8,title:'Верстка страниц интернет-магазина',company:'Mono Commerce',category:'Разработка',budget:'$30–45 / час',low:30,type:'Почасовая оплата',level:'Средний',posted:'2 дня назад',duration:'1 месяц',skills:['HTML','CSS','JavaScript'],description:'Адаптивная верстка каталога и карточки товара по макетам.',url:'https://www.upwork.com/nx/search/jobs/?q=frontend%20developer'}
 ];
-const categories=[['Все категории',LayoutGrid],['Разработка',Code2],['Дизайн',PenTool],['Тексты',PenTool],['Маркетинг',Megaphone],['Видео',Zap],['Аналитика',BarChart3]];
-function App(){
-const [query,setQuery]=useState(''),[category,setCategory]=useState('Все категории'),[level,setLevel]=useState('Любой уровень'),[type,setType]=useState('Любой формат'),[sort,setSort]=useState('Сначала новые'),[saved,setSaved]=useState([]),[onlySaved,setOnlySaved]=useState(false),[view,setView]=useState('list'),[showFilters,setShowFilters]=useState(false);
-const filtered=useMemo(()=>{let d=jobs.filter(j=>(category==='Все категории'||j.category===category)&&(level==='Любой уровень'||j.level===level)&&(type==='Любой формат'||j.type===type)&&(!onlySaved||saved.includes(j.id))&&(!query||[j.title,j.company,j.description,...j.skills].join(' ').toLowerCase().includes(query.toLowerCase())));if(sort==='Сначала с высоким бюджетом')d.sort((a,b)=>b.high-a.high);return d;},[query,category,level,type,sort,onlySaved,saved]);
-const toggleSave=id=>setSaved(s=>s.includes(id)?s.filter(x=>x!==id):[...s,id]);
-const reset=()=>{setQuery('');setCategory('Все категории');setLevel('Любой уровень');setType('Любой формат');setOnlySaved(false)};
-return <div className="app"><aside className="sidebar"><a className="brand" href="#"><span className="brand-icon"><Sparkles size={19}/></span><span>work<span className="brand-light">scope</span></span></a><div className="side-label">ЗАКАЗЫ</div><button className={'nav-item '+(!onlySaved?'active':'')} onClick={()=>setOnlySaved(false)}><LayoutGrid size={18}/> Поиск заказов <span className="nav-count">8</span></button><button className={'nav-item '+(onlySaved?'active':'')} onClick={()=>setOnlySaved(true)}><Bookmark size={18}/> Сохранённые <span className="nav-count">{saved.length}</span></button><div className="side-bottom"><div className="profile"><div className="avatar">Ф</div><div><b>Профиль</b></div></div></div></aside>
-<main className="main"><header className="topbar"><div className="breadcrumb">Рабочее пространство <span>/</span> <b>Поиск заказов</b></div></header>
-<section className="content"><div className="heading-row"><div><h1>Заказы</h1></div></div><div className="stat"><span className="stat-icon orange"><Clock3 size={17}/></span><div><b>8 мин</b><small>Среднее время отклика</small></div></div></div>
-<div className="section-head"><div><h2>Список заказов</h2></div><button className="text-btn" onClick={reset}>Сбросить фильтры <X size={14}/></button></div>
-<div className="search-panel"><div className="searchbox"><Search size={19}/><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Название проекта, навык или ключевое слово..."/>{query&&<button onClick={()=>setQuery('')}><X size={16}/></button>}</div><button className={'filter-toggle '+(showFilters?'selected':'')} onClick={()=>setShowFilters(!showFilters)}><SlidersHorizontal size={17}/> Фильтры</button></div>
-{showFilters&&<div className="filters"><label>Уровень<select value={level} onChange={e=>setLevel(e.target.value)}><option>Любой уровень</option><option>Начальный</option><option>Средний</option><option>Эксперт</option></select></label><label>Оплата<select value={type} onChange={e=>setType(e.target.value)}><option>Любой формат</option><option>Фиксированная цена</option><option>Почасовая оплата</option></select></label></div>}
-<div className="category-row">{categories.map(([name,Icon])=><button key={name} onClick={()=>setCategory(name)} className={'category '+(category===name?'chosen':'')}><Icon size={15}/>{name}</button>)}</div>
-<div className="results-toolbar"><span><b>{filtered.length}</b> проектов найдено </span><div className="toolbar-right"><select className="sort" value={sort} onChange={e=>setSort(e.target.value)}><option>Сначала новые</option><option>Сначала с высоким бюджетом</option></select><div className="view-switch"><button className={view==='list'?'on':''} onClick={()=>setView('list')} aria-label="Список"><List size={17}/></button><button className={view==='grid'?'on':''} onClick={()=>setView('grid')} aria-label="Сетка"><LayoutGrid size={16}/></button></div></div></div>
-<div className={'job-list '+(view==='grid'?'grid-view':'')}>{filtered.map(job=><article className="job-card" key={job.id}><div className="job-main"><div className="company-mark">{job.company.split(' ').map(x=>x[0]).join('').slice(0,2)}</div><div className="job-info"><div className="job-meta"><span>{job.company}</span><i>·</i><span>{job.posted}</span></div><h3>{job.title}</h3><p>{job.description}</p><div className="skills">{job.skills.map(skill=><span key={skill}>{skill}</span>)}</div></div></div><div className="job-footer"><div className="job-facts"><span><Wallet size={15}/><b>{job.budget}</b></span><span><Clock3 size={15}/>{job.duration}</span><span><MapPin size={15}/>Удалённо</span></div><div className="job-actions"><button className={'save-btn '+(saved.includes(job.id)?'saved':'')} onClick={()=>toggleSave(job.id)} aria-label="Сохранить">{saved.includes(job.id)?<BookmarkCheck size={17}/>:<Bookmark size={17}/>}</button><a className="apply-btn" href={job.url} target="_blank" rel="noreferrer">Открыть <ExternalLink size={14}/></a></div></div></article>)}</div>
-{filtered.length===0&&<div className="empty"><Search size={28}/><b>Ничего не нашлось</b><p>Попробуй изменить запрос или фильтры.</p><button onClick={reset}>Показать все заказы</button></div>}
-<div className="disclaimer"><span>Демонстрационные данные</span></div></section></main></div>}
-export default App;
+const categories=['Все','Разработка','Дизайн','Тексты','Маркетинг','Видео','Аналитика'];
+
+export default function App(){
+  const [query,setQuery]=useState('');
+  const [category,setCategory]=useState('Все');
+  const [level,setLevel]=useState('Любой');
+  const [type,setType]=useState('Любой');
+  const [sort,setSort]=useState('Новые');
+  const [saved,setSaved]=useState([]);
+  const [onlySaved,setOnlySaved]=useState(false);
+  const [view,setView]=useState('list');
+  const [filtersOpen,setFiltersOpen]=useState(false);
+  const filtered=useMemo(()=>{
+    const result=jobs.filter(j=>(category==='Все'||j.category===category)&&(level==='Любой'||j.level===level)&&(type==='Любой'||j.type===type)&&(!onlySaved||saved.includes(j.id))&&(!query||[j.title,j.company,j.description,...j.skills].join(' ').toLowerCase().includes(query.toLowerCase())));
+    if(sort==='Бюджет') result.sort((a,b)=>b.low-a.low);
+    return result;
+  },[query,category,level,type,sort,onlySaved,saved]);
+  const reset=()=>{setQuery('');setCategory('Все');setLevel('Любой');setType('Любой');setOnlySaved(false)};
+  const toggleSaved=id=>setSaved(s=>s.includes(id)?s.filter(x=>x!==id):[...s,id]);
+  return <div className="app">
+    <aside className="sidebar">
+      <a className="brand" href="#">WS</a>
+      <nav>
+        <button className={!onlySaved?'nav-item active':'nav-item'} onClick={()=>setOnlySaved(false)}>Все заказы</button>
+        <button className={onlySaved?'nav-item active':'nav-item'} onClick={()=>setOnlySaved(true)}>Сохранённые <span>{saved.length}</span></button>
+      </nav>
+    </aside>
+    <main className="main">
+      <header className="topbar"><h1>{onlySaved?'Сохранённые':'Заказы'}</h1></header>
+      <section className="content">
+        <div className="search-row">
+          <div className="searchbox"><Search size={18}/><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Поиск заказов и навыков"/>{query&&<button onClick={()=>setQuery('')} aria-label="Очистить"><X size={16}/></button>}</div>
+          <button className={filtersOpen?'filter-btn active':'filter-btn'} onClick={()=>setFiltersOpen(v=>!v)}><SlidersHorizontal size={17}/> Фильтры</button>
+        </div>
+        {filtersOpen&&<div className="filters">
+          <label>Уровень<select value={level} onChange={e=>setLevel(e.target.value)}><option value="Любой">Любой</option><option>Начальный</option><option>Средний</option><option>Эксперт</option></select></label>
+          <label>Оплата<select value={type} onChange={e=>setType(e.target.value)}><option value="Любой">Любой формат</option><option>Фиксированная цена</option><option>Почасовая оплата</option></select></label>
+        </div>}
+        <div className="categories">{categories.map(c=><button key={c} className={category===c?'category active':'category'} onClick={()=>setCategory(c)}>{c}</button>)}</div>
+        <div className="toolbar"><span>{filtered.length} заказов</span><div className="toolbar-actions"><select value={sort} onChange={e=>setSort(e.target.value)}><option value="Новые">Сначала новые</option><option value="Бюджет">По бюджету</option></select><div className="view-switch"><button className={view==='list'?'selected':''} onClick={()=>setView('list')} aria-label="Список"><List size={17}/></button><button className={view==='grid'?'selected':''} onClick={()=>setView('grid')} aria-label="Сетка"><LayoutGrid size={17}/></button></div><button className="reset" onClick={reset}>Сбросить</button></div></div>
+        <div className={view==='grid'?'job-list grid':'job-list'}>
+          {filtered.map(job=><article className="job-card" key={job.id}>
+            <div className="job-top"><div className="company-mark">{job.company.slice(0,1)}</div><div className="job-info"><div className="meta">{job.company}<span>·</span>{job.posted}</div><h2>{job.title}</h2><p>{job.description}</p></div><button className={saved.includes(job.id)?'save saved':'save'} onClick={()=>toggleSaved(job.id)} aria-label="Сохранить">{saved.includes(job.id)?<BookmarkCheck size={18}/>:<Bookmark size={18}/>}</button></div>
+            <div className="skills">{job.skills.map(skill=><span key={skill}>{skill}</span>)}</div>
+            <div className="job-bottom"><div className="facts"><span><Wallet size={15}/><b>{job.budget}</b></span><span><Clock3 size={15}/>{job.duration}</span><span>{job.level}</span><span>{job.category}</span></div><a href={job.url} target="_blank" rel="noreferrer">Открыть <ExternalLink size={14}/></a></div>
+          </article>)}
+        </div>
+        {filtered.length===0&&<div className="empty">Заказы не найдены</div>}
+      </section>
+    </main>
+  </div>;
+}
