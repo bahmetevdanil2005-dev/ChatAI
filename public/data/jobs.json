@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T19:47:42.695586+00:00",
+  "updatedAt": "2026-11-05T20:42:02.971489+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,24 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528199/jertvennyiy-stol-.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Жертвенный стол",
+      "company": "FL.ru",
+      "description": "Нужно спроектировать жертвенный стол для плазмореза термит 3000х8000 можно водяной или сухой",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Thu, 05 Nov 2026 19:27:59 GMT",
+      "publishedAt": "2026-11-05T19:27:59+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528199/jertvennyiy-stol-.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528192/buhgalter-.html",
       "source": "fl_ru",
@@ -1071,24 +1089,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528077/verstka-i-schetchik-metriki-.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528075/smathstudio.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "SMathStudio",
-      "company": "FL.ru",
-      "description": "Необходимо выписать и правильно оформить все примеры из учебника в соответствии с указанными вариантами, чтобы их можно было без ошибок вводить и решать в программе SMath...",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Thu, 05 Nov 2026 07:09:36 GMT",
-      "publishedAt": "2026-11-05T07:09:36+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528075/smathstudio.html"
     }
   ]
 }
