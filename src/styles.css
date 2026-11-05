@@ -264,3 +264,24 @@ button:focus-visible,a:focus-visible{outline:2px solid currentColor;outline-offs
 }
 .pull-indicator.is-pulling{transition:height .12s cubic-bezier(.2,.65,.25,1),opacity .16s ease-out}
 .pull-indicator.is-loading{transition:height .42s cubic-bezier(.16,1,.3,1),opacity .22s ease-out,margin-bottom .42s cubic-bezier(.16,1,.3,1)}
+
+
+/* Pull indicator stays mounted: animate only opacity/transform, not layout height */
+.pull-indicator{
+  height:0!important;min-height:0!important;margin:0 auto!important;padding:0!important;
+  display:flex;align-items:center;justify-content:center;gap:10px;overflow:hidden;
+  opacity:0;transform:translate3d(0,-10px,0) scale(.97);
+  pointer-events:none;will-change:height,opacity,transform;
+  transition:height .28s cubic-bezier(.22,1,.36,1),opacity .24s ease,transform .32s cubic-bezier(.22,1,.36,1),margin .28s cubic-bezier(.22,1,.36,1)!important;
+}
+.pull-indicator[aria-hidden="false"]{
+  height:var(--pull-distance)!important;
+  opacity:1;transform:translate3d(0,0,0) scale(1);
+  margin:0 auto 12px!important;
+}
+.pull-indicator.is-loading{
+  height:66px!important;min-height:66px!important;opacity:1;
+  transform:translate3d(0,0,0) scale(1);margin:0 auto 16px!important;
+}
+.pull-indicator .pull-spinner{flex:none}
+.pull-indicator.is-loading .pull-spinner{animation:pull-spin .8s linear infinite}
