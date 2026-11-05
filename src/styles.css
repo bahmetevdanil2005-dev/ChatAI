@@ -159,3 +159,31 @@ button:focus-visible,a:focus-visible{outline:2px solid currentColor;outline-offs
 /* Keep intentionally circular controls circular */
 .dock-center,.center-orb,.toggle-switch,.toggle-switch span{border-radius:50%}
 @media(max-width:600px){.searchbox{border-radius:999px}.filter-btn{border-radius:999px}}
+
+
+/* Navigation dock: clear separation from the page with the same rounded language */
+.bottom-dock{
+  height:78px;
+  padding:0 11px;
+  border:1px solid #d8d8d8;
+  border-radius:28px;
+  background:rgba(255,255,255,.97);
+  box-shadow:0 10px 32px rgba(0,0,0,.13),0 2px 8px rgba(0,0,0,.06),inset 0 1px 0 rgba(255,255,255,.95);
+}
+.bottom-dock:before{
+  border-radius:inherit;
+  background:linear-gradient(135deg,rgba(255,255,255,.8),rgba(245,245,245,.12) 70%);
+}
+.dock-item{border-radius:18px}
+.dock-center,.center-orb{border-radius:50%}
+.theme-dark .bottom-dock{
+  border-color:#3a3a3a;
+  background:rgba(18,18,18,.97);
+  box-shadow:0 12px 36px rgba(0,0,0,.58),0 2px 8px rgba(0,0,0,.3),inset 0 1px 0 rgba(255,255,255,.07);
+}
+.theme-dark .bottom-dock:before{
+  background:linear-gradient(135deg,rgba(255,255,255,.09),rgba(255,255,255,0) 70%);
+}
+@media(max-width:600px){
+  .bottom-dock{height:72px;border-radius:25px}
+}
