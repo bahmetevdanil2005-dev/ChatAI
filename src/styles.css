@@ -144,3 +144,18 @@ button:focus-visible,a:focus-visible{outline:2px solid currentColor;outline-offs
 @media(max-width:800px){.content{padding:28px 22px 80px}.job-list.grid{grid-template-columns:1fr}.simple-page,.settings-page{margin:40px 18px;padding:25px 20px}}
 @media(max-width:600px){.app{padding-bottom:105px}.topbar{height:68px;padding:0 18px}.topbar h1{font-size:23px}.content{padding:20px 13px 40px}.search-row{gap:7px}.searchbox{height:48px;padding:0 11px;gap:8px}.searchbox input{font-size:11px}.filter-btn{padding:0 12px;font-size:10px}.categories{gap:6px;margin:16px 0 22px}.category{padding:8px 11px;font-size:10px}.toolbar{font-size:10px}.toolbar-actions{gap:5px}.toolbar select{max-width:104px;font-size:10px}.reset{font-size:9px}.job-card{padding:15px;border-radius:13px}.company-mark{width:37px;height:37px;flex-basis:37px}.job-info h2{font-size:14px}.job-info p{font-size:11px}.facts{gap:9px;font-size:9px}.job-bottom{align-items:flex-end}.job-bottom a{font-size:9px;padding:8px 10px}.filters{flex-wrap:wrap}.filters label{min-width:42%}.bottom-dock{bottom:12px;height:70px;width:calc(100vw - 22px);border-radius:21px;padding:0 5px}.dock-item{height:58px;font-size:8px}.dock-item svg{width:18px;height:18px}.dock-center,.center-orb{width:44px;height:44px;min-width:44px;min-height:44px}.center-orb svg{width:20px;height:20px}.saved-popover{bottom:98px}.simple-page{margin:35px 12px;padding:24px 12px}.settings-page{margin:28px 12px;padding:18px 5px}.settings-section-title{margin-top:23px}.choice{padding:8px 7px;font-size:9px}.setting-label{gap:8px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+
+/* Consistent rounded geometry */
+:root{--radius:16px;--control-radius:16px}
+.searchbox{border-radius:999px}
+.filter-btn{border-radius:999px}
+.filters,.job-card,.empty,.ai-input,.saved-popover,.ai-icon{border-radius:var(--radius)}
+.filters input,.filters select,.toolbar select,.view-switch,.view-switch button,
+.save,.company-mark,.skills span,.job-bottom a,.ai-note,.ai-input button,
+.choice-pair,.choice,.outline-action,.solid-action,.saved-search-detail,
+.save-search-btn,.popover-actions>*{border-radius:var(--control-radius)}
+.dock-item{border-radius:var(--control-radius)}
+/* Keep intentionally circular controls circular */
+.dock-center,.center-orb,.toggle-switch,.toggle-switch span{border-radius:50%}
+@media(max-width:600px){.searchbox{border-radius:999px}.filter-btn{border-radius:999px}}
