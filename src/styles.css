@@ -224,3 +224,33 @@ button:focus-visible,a:focus-visible{outline:2px solid currentColor;outline-offs
   background:linear-gradient(105deg,transparent 20%,rgba(255,255,255,.2) 48%,rgba(255,255,255,.06) 58%,transparent 78%);
 }
 @media(prefers-reduced-motion:reduce){.pull-indicator.is-loading .pull-spinner,.skeleton-line:after,.skeleton-tags i:after{animation:none}}
+
+
+/* Feed spacing and deliberately smooth pull-to-refresh motion */
+.search-row{margin-bottom:22px}
+.filters{margin-top:0;margin-bottom:26px;gap:16px;padding:20px}
+.toolbar{margin-top:0}
+.pull-indicator{
+  height:0;min-height:0;margin:0 auto;gap:12px;overflow:hidden;
+  will-change:height,opacity;transition:none;
+  font-size:11px;letter-spacing:.01em;
+}
+.pull-indicator.is-pulling{transition:none}
+.pull-indicator.is-loading{
+  height:72px!important;min-height:72px;margin:0 auto 16px;
+  opacity:1!important;transition:height .34s cubic-bezier(.2,.75,.25,1),margin .34s cubic-bezier(.2,.75,.25,1);
+}
+.pull-spinner{width:20px;height:20px;flex:none;border-width:2px}
+.pull-indicator.is-loading .pull-spinner{animation:pull-spin .8s linear infinite}
+.job-list{gap:14px}
+.skeleton-card{animation:skeleton-appear .38s cubic-bezier(.2,.75,.25,1) both}
+.skeleton-card:nth-child(2){animation-delay:.055s}
+.skeleton-card:nth-child(3){animation-delay:.11s}
+@keyframes skeleton-appear{from{opacity:0;transform:translateY(8px);filter:blur(3px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}
+.skeleton-line:after,.skeleton-tags i:after{animation-duration:1.5s;filter:blur(3px)}
+@media(max-width:600px){
+  .search-row{margin-bottom:20px}
+  .filters{margin-bottom:23px;padding:16px;gap:13px}
+  .toolbar{margin-top:0;margin-bottom:16px}
+  .pull-indicator.is-loading{margin-bottom:15px}
+}
