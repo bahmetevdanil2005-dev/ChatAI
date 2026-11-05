@@ -84,7 +84,7 @@ def main():
         "updatedAt": datetime.now(timezone.utc).isoformat(),
         "sources": sources,
         "jobs": unique,
-    }, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("Fetched", len(unique), "unique projects; sources:", sources)
 
 
