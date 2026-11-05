@@ -69,3 +69,54 @@ button:active{box-shadow:none!important}
 .theme-dark .empty{border-color:#444;color:#ccc}
 @media(max-width:600px){.dock-center{transform:translateY(-17px)}.dock-center:active,.dock-center:hover{transform:translateY(-17px)}.choice{padding:8px 7px;font-size:9px}.setting-label{gap:8px}.settings-section-title{margin-top:23px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* Final visual direction: crisp monochrome, bold automotive-inspired typography */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{font-family:'Manrope',sans-serif;color:#050505;background:#fff}
+body{background:#fff;color:#050505}
+.topbar{padding-left:max(28px,calc((100vw - 1100px)/2));padding-right:max(28px,calc((100vw - 1100px)/2));}
+.topbar h1,.settings-page h2,.simple-page h2{font-family:'Barlow Condensed','Manrope',sans-serif;font-weight:800;letter-spacing:-.025em;text-transform:uppercase}
+.topbar h1{font-size:27px;line-height:1;letter-spacing:.015em}
+.content,.settings-page,.simple-page{font-family:'Manrope',sans-serif}
+.job-info h2{font-family:'Manrope',sans-serif;font-weight:800;letter-spacing:-.035em}
+.category,.filter-btn,.outline-action,.solid-action,.choice,.save-search-btn{font-family:'Manrope',sans-serif;font-weight:700}
+.job-card{border-color:#dedede;background:#fff}
+.company-mark,.skills span{background:#f4f4f4;color:#080808}
+.category.active,.filter-btn.active{background:#050505;border-color:#050505;color:#fff}
+.bottom-dock{height:76px;grid-template-columns:repeat(5,minmax(0,1fr));padding:0 10px;background:rgba(255,255,255,.84);border-color:#fff;box-shadow:0 9px 32px #00000018,inset 0 1px #fff}
+.dock-item{height:62px;align-self:center;justify-self:stretch;transform:none!important;display:flex;align-items:center;justify-content:center;gap:5px}
+.dock-item:active,.dock-item:hover{transform:none!important}
+.dock-center{width:48px;height:48px;min-width:48px;min-height:48px;align-self:center;justify-self:center;display:grid;place-items:center;padding:0;border:0;border-radius:50%;background:#050505;color:#fff;box-shadow:none!important;transform:none!important}
+.dock-center:active,.dock-center:hover{transform:none!important;opacity:.78}
+.center-orb{width:48px;height:48px;border-radius:50%;background:#050505;color:#fff}
+.center-orb svg{width:21px;height:21px}
+.dock-center.center-active{background:#050505;color:#fff;outline:2px solid #050505;outline-offset:3px}
+.theme-dark{--bg:#000;--surface:#080808;--surface2:#111;--text:#fff;--muted:#bdbdbd;--line:#292929;background:#000;color:#fff}
+.theme-dark .main,.theme-dark .app{background:#000;color:#fff}
+.theme-dark .topbar{border-color:#222}
+.theme-dark .searchbox,.theme-dark .job-card,.theme-dark .filters,.theme-dark .setting-row,.theme-dark .saved-search-detail{background:#080808;border-color:#292929;color:#fff}
+.theme-dark .job-info h2,.theme-dark .facts b,.theme-dark .setting-row b,.theme-dark .topbar h1,.theme-dark .toolbar,.theme-dark .saved-search-detail{color:#fff}
+.theme-dark .searchbox input,.theme-dark .searchbox input::placeholder,.theme-dark .job-info p,.theme-dark .meta,.theme-dark .facts,.theme-dark .setting-row small,.theme-dark .settings-section-title{color:#bdbdbd}
+.theme-dark .filter-btn,.theme-dark .category,.theme-dark .outline-action,.theme-dark .filters select,.theme-dark .toolbar select,.theme-dark .view-switch,.theme-dark .view-switch button{background:#080808;border-color:#292929;color:#fff}
+.theme-dark .category.active,.theme-dark .view-switch button.selected,.theme-dark .solid-action,.theme-dark .job-bottom a{background:#fff;border-color:#fff;color:#000}
+.theme-dark .skills span,.theme-dark .company-mark,.theme-dark .ai-note{background:#151515;border-color:#292929;color:#eee}
+.theme-dark .save{background:#080808;border-color:#333;color:#fff}
+.theme-dark .save.saved{background:#fff;color:#000}
+.theme-dark .job-bottom{border-color:#292929}
+.theme-dark .bottom-dock{background:rgba(5,5,5,.88);border-color:#262626;box-shadow:0 10px 34px #000b,inset 0 1px #ffffff14}
+.theme-dark .bottom-dock:before{background:linear-gradient(130deg,#ffffff0d,#ffffff00 65%)}
+.theme-dark .dock-item{color:#999}
+.theme-dark .dock-item.active{color:#fff}
+.theme-dark .dock-center,.theme-dark .center-orb{background:#fff;color:#000;border-color:#fff}
+.theme-dark .dock-center.center-active{background:#fff;color:#000;outline-color:#fff}
+.theme-dark .choice-pair{background:#090909;border-color:#292929}
+.theme-dark .choice{color:#bbb}
+.theme-dark .choice.active,.theme-dark .toggle-switch.on{background:#fff;color:#000}
+.theme-dark .toggle-switch span{background:#000}
+.theme-dark .simple-page,.theme-dark .settings-page,.theme-dark .simple-page p{color:#fff}
+.theme-dark .saved-popover{background:rgba(8,8,8,.97);border-color:#292929;color:#fff}
+.theme-dark .popover-head,.theme-dark .saved-search-detail,.theme-dark .empty-search{color:#fff}
+.theme-dark .popover-head button{color:#fff}
+.theme-dark .panel-scrim{background:#000b}
+.theme-dark .empty{border-color:#292929;color:#ddd}
+@media(max-width:600px){.topbar{padding:0 16px}.topbar h1{font-size:24px}.bottom-dock{height:70px;padding:0 5px}.dock-item{height:58px}.dock-center,.center-orb{width:44px;height:44px;min-width:44px;min-height:44px}.center-orb svg{width:20px;height:20px}}
