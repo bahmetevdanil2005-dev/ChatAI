@@ -1,0 +1,37 @@
+{
+  "updatedAt": null,
+  "sources": [
+    {
+      "id": "fl_ru",
+      "name": "FL.ru",
+      "status": "pending",
+      "count": 0,
+      "feed": "https://www.fl.ru/rss/all.xml"
+    },
+    {
+      "id": "kwork",
+      "name": "Kwork",
+      "status": "auth_required",
+      "count": 0
+    },
+    {
+      "id": "freelance_ru",
+      "name": "Freelance.ru",
+      "status": "research",
+      "count": 0
+    },
+    {
+      "id": "upwork",
+      "name": "Upwork",
+      "status": "api_approval_required",
+      "count": 0
+    },
+    {
+      "id": "freelancer",
+      "name": "Freelancer.com",
+      "status": "api_credentials_required",
+      "count": 0
+    }
+  ],
+  "jobs": []
+}
