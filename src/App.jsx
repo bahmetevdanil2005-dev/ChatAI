@@ -28,7 +28,7 @@ const saveCurrentSearch=()=>{setSavedSearch({query,category,level,type,sort});no
 const applySavedSearch=()=>{if(!savedSearch)return;setQuery(savedSearch.query);setCategory(savedSearch.category);setLevel(savedSearch.level);setType(savedSearch.type);setSort(savedSearch.sort);setOnlySaved(false);setTab('freelance');setSavedPanel(false)};
 const title=tab==='freelance'?(onlySaved?t.saved:t.freelance):t[tab];
 return <div className={theme==='dark'?'app theme-dark':'app'}><main className="main">
-<header className="topbar"><div className="top-mark">WS</div><h1>{title}</h1></header>
+<header className="topbar"><h1>{title}</h1></header>
 {tab==='freelance'&&<section className="content">
 <div className="search-row"><div className="searchbox"><Search size={18}/><input value={query} onChange={e=>setQuery(e.target.value)} placeholder={t.search}/>{query&&<button onClick={()=>setQuery('')} aria-label="Clear"><X size={16}/></button>}</div><button className={filtersOpen?'filter-btn active':'filter-btn'} onClick={()=>setFiltersOpen(v=>!v)}><SlidersHorizontal size={17}/> {t.filters}</button></div>
 {filtersOpen&&<div className="filters"><label>{t.level}<select value={level} onChange={e=>setLevel(e.target.value)}><option value="Любой">{t.any}</option><option value="Начальный">{levelValue('Начальный')}</option><option value="Средний">{levelValue('Средний')}</option><option value="Эксперт">{levelValue('Эксперт')}</option></select></label><label>{t.payment}<select value={type} onChange={e=>setType(e.target.value)}><option value="Любой">{t.anyFormat}</option><option value="Фиксированная цена">{t.fixed}</option><option value="Почасовая оплата">{t.hourly}</option></select></label></div>}
