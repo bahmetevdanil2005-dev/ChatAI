@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T13:40:30.006617+00:00",
+  "updatedAt": "2026-11-06T14:49:51.919366+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,42 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528291/zapisat-korotkiy-video-rolik-ugc-formata.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Записать короткий видео-ролик UGC формата (Бюджет: 1 000 ₽)",
+      "company": "FL.ru",
+      "description": "Нужно снять видео на нейтральном фоне (кровать, стол итп) с женскими руками, которые листают на айфоне сайт – сервис с интерактивными ИИ историями. Длительность 10-20с, простой...",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Fri, 06 Nov 2026 14:32:28 GMT",
+      "publishedAt": "2026-11-06T14:32:28+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528291/zapisat-korotkiy-video-rolik-ugc-formata.html"
+    },
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528289/sozdanie-akk-i-nastroyke-claude-.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Создание акк и настройке claude (для всех)",
+      "company": "FL.ru",
+      "description": "Я работаю в блогинге и мне нужен хороший AI помощник который може работать с видео,поста и каруселями,делать аналитику аккаунтов,писать сецнарии,стратегии и тд.",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Fri, 06 Nov 2026 14:02:11 GMT",
+      "publishedAt": "2026-11-06T14:02:11+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528289/sozdanie-akk-i-nastroyke-claude-.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528288/spetsialist-po-avito.html",
       "source": "fl_ru",
@@ -243,24 +279,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528266/3d-vizualizatsiya-domov-fasad--interer.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528264/vneshnie-ssyilki-dlya-sayta-tsvetochnoy-masterskoy-v-spb.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Внешние ссылки для сайта цветочной мастерской в СПб",
-      "company": "FL.ru",
-      "description": "Ищу SEO-специалиста для наращивания ссылочной массы сайта (цветочная мастерская, Санкт-Петербург). Что нужно: -подобрать и разместить качественные внешние ссылки на живых...",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Fri, 06 Nov 2026 11:29:52 GMT",
-      "publishedAt": "2026-11-06T11:29:52+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528264/vneshnie-ssyilki-dlya-sayta-tsvetochnoy-masterskoy-v-spb.html"
     },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528255/podgotovka-materialov-k-proektu-razrabotka-kpi-dlya-remontnoy-slujbyi-i-proizvodstva.html",
@@ -603,24 +621,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528228/nastroyka-avtomaticheskogo-sbora-kommentariev-i-obrascheniy-iz-tiktok.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528227/rasshifrovka-140-min.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "расшифровка 140 мин (Бюджет: 1 400 ₽)",
-      "company": "FL.ru",
-      "description": "требуется расшифровать дословно видео в текст с тайм-кодами. раздаю по частям. срок - 20 мск сегодня (06.11.2026).",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Fri, 06 Nov 2026 07:44:45 GMT",
-      "publishedAt": "2026-11-06T07:44:45+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528227/rasshifrovka-140-min.html"
     },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5481903/razmestit-razovo-korotkiy-gotovyiy-tekst-otzyiv-na-sayte.html",
