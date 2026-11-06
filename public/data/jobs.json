@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T17:42:58.944515+00:00",
+  "updatedAt": "2026-11-06T18:44:07.257496+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,24 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528311/infografika-dlya-ozon-wb.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Инфографика для Ozon/WB (для всех)",
+      "company": "FL.ru",
+      "description": "Ищу дизайнера для карточек Ozon/WB, работа периодическая, по мере запуска изделий. Производим различные металлоизделия, тематика - сад/дом/дача. Опыт работы с нейросетями обязателен.",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Fri, 06 Nov 2026 18:32:40 GMT",
+      "publishedAt": "2026-11-06T18:32:40+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528311/infografika-dlya-ozon-wb.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528301/razrabotka-konvertyaschih-saytov-i-lendingov-pod-klyuch-tilda---html--razrabotchik-saytov-dlya-biznesa.html",
       "source": "fl_ru",
@@ -1053,24 +1071,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528187/napisanie-nauchnoy-stati-dlya-universiteta-.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528194/html-verstka.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Html верстка",
-      "company": "FL.ru",
-      "description": "Доброго дня! Нужно сверстать на HTML и CSS 18 глав лендингов, они простые, текст с картинками. Пишите в лс вашу цену и сроки",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Thu, 05 Nov 2026 18:58:59 GMT",
-      "publishedAt": "2026-11-05T18:58:59+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528194/html-verstka.html"
     },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528023/seo-analiz-konkurentov-i-plan-prodvijeniya-.html",
