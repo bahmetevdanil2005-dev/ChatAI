@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T16:44:29.039952+00:00",
+  "updatedAt": "2026-11-06T17:42:58.944515+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,24 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528301/razrabotka-konvertyaschih-saytov-i-lendingov-pod-klyuch-tilda---html--razrabotchik-saytov-dlya-biznesa.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Разработка конвертящих сайтов и лендингов под ключ (Tilda / HTML) & Разработчик сайтов для бизнеса",
+      "company": "FL.ru",
+      "description": "Нам необходимо создать современный одностраничный сайт для привлечения заявок. Что нужно сделать: 1. Проанализировать конкурентов и составить UX-структуру сайта. 2. Написать...",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Fri, 06 Nov 2026 16:54:17 GMT",
+      "publishedAt": "2026-11-06T16:54:17+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528301/razrabotka-konvertyaschih-saytov-i-lendingov-pod-klyuch-tilda---html--razrabotchik-saytov-dlya-biznesa.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528300/trebuetsya-kachestvennaya-hudojestvennaya-obrabotka-odnoy-fotografii-tz-v-ls.html",
       "source": "fl_ru",
@@ -1055,40 +1073,22 @@
       "url": "https://www.fl.ru/projects/5528194/html-verstka.html"
     },
     {
-      "id": "fl_ru:https://www.fl.ru/projects/5528184/sozdat-masshtabnyiy-usilitel-napryajeniya-postoyannogo-toka-na-polevyih-tranzistorah-v-multisim.html",
+      "id": "fl_ru:https://www.fl.ru/projects/5528023/seo-analiz-konkurentov-i-plan-prodvijeniya-.html",
       "source": "fl_ru",
       "sourceLabel": "FL.ru",
-      "title": "Создать Масштабный усилитель напряжения постоянного тока на полевых транзисторах в мультисим (Бюджет: 500 ₽)",
+      "title": "SEO-анализ конкурентов и план продвижения (для всех)",
       "company": "FL.ru",
-      "description": "Здравствуйте! Ищу специалиста в области электроники и схемотехники, который сможет помочь с выполнением практической части курсовой работы. Задача: разработать масштабный...",
+      "description": "SEO-специалист на анализ конкурентов: 5 сайтов из топа по нужному гео. Проект крупный — 25К страниц в индексе. Детали тематики и ТЗ — в ЛС. Также интересно ваше видение по стратегиям: — Google: нужна ли для такой ниши закупка ссылок, в каком объёме и какими методами (аутрич, крауд, биржи); — Яндекс: есть ли смысл в работе с ПФ, и если да — какие методы считаете рабочими. В отклике — краткое видение и релевантные кейсы.",
       "budget": "Не указан",
       "low": 0,
       "type": "Не указан",
       "level": "Любой",
       "category": "Другое",
-      "posted": "Thu, 05 Nov 2026 18:58:38 GMT",
-      "publishedAt": "2026-11-05T18:58:38+00:00",
+      "posted": "Wed, 04 Nov 2026 20:34:18 GMT",
+      "publishedAt": "2026-11-04T20:34:18+00:00",
       "duration": "Не указан",
       "skills": [],
-      "url": "https://www.fl.ru/projects/5528184/sozdat-masshtabnyiy-usilitel-napryajeniya-postoyannogo-toka-na-polevyih-tranzistorah-v-multisim.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528182/rd-na-otkryituyu-vannu-izgotovlenie-zernennogo-tvoroga-10-kub-metrov.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "РД на открытую ванну изготовление зерненного творога 10 куб метров (для всех)",
-      "company": "FL.ru",
-      "description": "Имеется тех задание, фотографии аналогичных ванн , импортные чертежи, необходима конструкторская документация",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Thu, 05 Nov 2026 18:57:34 GMT",
-      "publishedAt": "2026-11-05T18:57:34+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528182/rd-na-otkryituyu-vannu-izgotovlenie-zernennogo-tvoroga-10-kub-metrov.html"
+      "url": "https://www.fl.ru/projects/5528023/seo-analiz-konkurentov-i-plan-prodvijeniya-.html"
     }
   ]
 }
