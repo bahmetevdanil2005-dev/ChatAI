@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T10:29:29.585826+00:00",
+  "updatedAt": "2026-11-06T11:26:45.346663+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,78 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528255/podgotovka-materialov-k-proektu-razrabotka-kpi-dlya-remontnoy-slujbyi-i-proizvodstva.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Подготовка материалов к проекту \"Разработка KPI для ремонтной службы и производства\" (Бюджет: 999 999 ₽)",
+      "company": "FL.ru",
+      "description": "Ищем исполнителя на оказание экспертных услуг в кадровом проекте «Пилотный проект по разработке системы единых показателей эффективности для руководителей ремонтной и...",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Fri, 06 Nov 2026 10:57:15 GMT",
+      "publishedAt": "2026-11-06T10:57:15+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528255/podgotovka-materialov-k-proektu-razrabotka-kpi-dlya-remontnoy-slujbyi-i-proizvodstva.html"
+    },
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528261/dizayn-sayta-brenda-ochistiteley-.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Дизайн сайта бренда очистителей (Бюджет: 25 000 ₽)",
+      "company": "FL.ru",
+      "description": "современный сайт в японском стиле Страницы – главная, карточка товара, о компании, контакты, каталог. нужно не просто картинки и текст, а структуру, переходы, стиль. без...",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Fri, 06 Nov 2026 10:55:58 GMT",
+      "publishedAt": "2026-11-06T10:55:58+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528261/dizayn-sayta-brenda-ochistiteley-.html"
+    },
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528256/bazis-mebelschik-.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Базис мебельщик",
+      "company": "FL.ru",
+      "description": "Чертежи для распила лдсп и последующей сборки барной стойки. 6 консолей общей длиной 4,8 метра",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Fri, 06 Nov 2026 10:37:48 GMT",
+      "publishedAt": "2026-11-06T10:37:48+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528256/bazis-mebelschik-.html"
+    },
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528253/sdelat-ii-semeynyiy-portret-iz-ishodnyih-foto.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Сделать ИИ семейный портрет из исходных фото (Бюджет: 300 ₽)",
+      "company": "FL.ru",
+      "description": "Создай реалистичный семейный портрет для печати на холсте. На фотографии ровно 7 человек: бабушка и дедушка в центре, рядом с ними и позади — пятеро внуков. Все стоят или сидят...",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Fri, 06 Nov 2026 10:31:05 GMT",
+      "publishedAt": "2026-11-06T10:31:05+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528253/sdelat-ii-semeynyiy-portret-iz-ishodnyih-foto.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528225/sozdat-reklamnyie-video-dlya-sportivnogo-prilojeniya.html",
       "source": "fl_ru",
@@ -191,24 +263,6 @@
       "url": "https://www.fl.ru/projects/5528238/3d-modelirovanie-skulpting.html"
     },
     {
-      "id": "fl_ru:https://www.fl.ru/projects/5528237/vyipolnit-razdel-moos-meropriyatiya-po-ohrane-okrujayuschey-sredyi.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Выполнить раздел МООС (Мероприятия по охране окружающей среды)",
-      "company": "FL.ru",
-      "description": "Нужен специалист для выполнения раздел МООС (Мероприятия по охране окружающей среды). Объект: Очистные сооружения подземного типа из стеклопластика и от него отводящий...",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Fri, 06 Nov 2026 08:53:17 GMT",
-      "publishedAt": "2026-11-06T08:53:17+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528237/vyipolnit-razdel-moos-meropriyatiya-po-ohrane-okrujayuschey-sredyi.html"
-    },
-    {
       "id": "fl_ru:https://www.fl.ru/projects/5528236/dizayn-proekt-kuhni.html",
       "source": "fl_ru",
       "sourceLabel": "FL.ru",
@@ -315,24 +369,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528227/rasshifrovka-140-min.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528223/fotoshop-foto.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "фотошоп фото",
-      "company": "FL.ru",
-      "description": "Убрать карету, заменить задний фон ( на усмотрение ), не потерять качество, фото будет печататься размером 20*30 см.",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Fri, 06 Nov 2026 07:19:12 GMT",
-      "publishedAt": "2026-11-06T07:19:12+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528223/fotoshop-foto.html"
     },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5481903/razmestit-razovo-korotkiy-gotovyiy-tekst-otzyiv-na-sayte.html",
@@ -1053,42 +1089,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528145/pravki-sayta-wordpress--tutor-lms.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528143/sdelat-proekt-karkasnoy-bani.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Сделать проект каркасной бани (для всех)",
-      "company": "FL.ru",
-      "description": "Нужен технический проект каркасной бани по моему чертежу",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Thu, 05 Nov 2026 13:49:15 GMT",
-      "publishedAt": "2026-11-05T13:49:15+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528143/sdelat-proekt-karkasnoy-bani.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528132/sozdanie-soobschestva-vkontakte.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Создание сообщества вконтакте (для всех)",
-      "company": "FL.ru",
-      "description": "💙 Удалённая подработка — создание сообществ ВКонтакте Ищем помощников для создания и оформления новых сообществ ВКонтакте! Работа полностью удалённая, со свободным графиком Опыт не обязателен — предоставляем инструкцию и необходимые пояснения 💰 Оплата — 100 ₽ за одну подготовленную группу 📋 Обязанности: — Создавать новые группы ВКонтакте по инструкции (время на создание группы 1 час) — Придумывать название и концепцию сообщества, составлять описание с помощью нейросети — Создавать аватарку, обложку и приветственный пост с помощью нейросети — Самостоятельно подбирать тематический видеоконтент и планировать публикации на 10 дней вперёд ✅ Требования: — Ответственность и внимательность — Умение пользоваться интернетом — Готовность работать по инструкции — Желание разобраться в работе с нейросетями — Опыт создания сообществ ВКонтакте не обязателен 🏠 Условия: — Полностью удалённая работа — Свободный график — Сдельная оплата — 100 ₽ за создание и подготовку одной группы (время на создание группы 1 час) — Общий заработок зависит от количества выполненных заданий — Предоставляем инструкцию и необходимые пояснения — Все тексты, изображения и публикации исполнитель самостоятельно подготавлива",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Thu, 05 Nov 2026 13:15:39 GMT",
-      "publishedAt": "2026-11-05T13:15:39+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528132/sozdanie-soobschestva-vkontakte.html"
     }
   ]
 }
