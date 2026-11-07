@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T18:01:05.854201+00:00",
+  "updatedAt": "2026-11-07T19:16:41.345096+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,24 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528403/trebuetsya-rabochiy-stsenariy-dlya-ii-dlya-kartochek-tovara-v-gruppe-yuvelirnyie-sergi.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Требуется рабочий сценарий для ИИ для карточек товара в группе ювелирные серьги (для всех)",
+      "company": "FL.ru",
+      "description": "Требуется рабочий сценарий для ИИ для карточек товара в группе ювелирные серьги.Не можем сами сделать чтоб было не криво и естественно.Остальные украшения все окей.Будет +- 5-7",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Sat, 07 Nov 2026 18:08:59 GMT",
+      "publishedAt": "2026-11-07T18:08:59+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528403/trebuetsya-rabochiy-stsenariy-dlya-ii-dlya-kartochek-tovara-v-gruppe-yuvelirnyie-sergi.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528398/sdelat-sayt.html",
       "source": "fl_ru",
@@ -1071,24 +1089,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528296/otrenderit-10-trekov-po-dorojkam-v-fl.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528291/zapisat-korotkiy-video-rolik-ugc-formata.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Записать короткий видео-ролик UGC формата (Бюджет: 1 000 ₽)",
-      "company": "FL.ru",
-      "description": "Нужно снять видео на нейтральном фоне (кровать, стол итп) с женскими руками, которые листают на айфоне сайт – сервис с интерактивными ИИ историями. Длительность 10-20с, простой...",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Fri, 06 Nov 2026 14:32:28 GMT",
-      "publishedAt": "2026-11-06T14:32:28+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528291/zapisat-korotkiy-video-rolik-ugc-formata.html"
     }
   ]
 }
