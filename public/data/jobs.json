@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T23:30:35.957144+00:00",
+  "updatedAt": "2026-11-07T00:47:22.676612+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,24 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528329/nujna-pomosch-s-youtube.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Нужна помощь с Youtube (Бюджет: 3 000 ₽)",
+      "company": "FL.ru",
+      "description": "Нужна помощь с настройкой Youtube",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Sat, 07 Nov 2026 00:26:02 GMT",
+      "publishedAt": "2026-11-07T00:26:02+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528329/nujna-pomosch-s-youtube.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528326/rassyilka-predlojeniy-po-el-pochte-zakazchikam-gos-tenderov.html",
       "source": "fl_ru",
@@ -1053,24 +1071,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528216/prilojenie-na-android.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528206/sozdat-soft-ili-bota-dlya-igryi-dlya-avto-farma.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Создать софт или бота для игры для авто фарма (Бюджет: 15 000 ₽)",
-      "company": "FL.ru",
-      "description": "Техническое задание: бот для циклического фарма боссов в Perfect World на сервере RequiemPW 1. Цель разработки Разработать приложение для автоматического прохождения...",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Fri, 06 Nov 2026 04:58:38 GMT",
-      "publishedAt": "2026-11-06T04:58:38+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528206/sozdat-soft-ili-bota-dlya-igryi-dlya-avto-farma.html"
     },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528023/seo-analiz-konkurentov-i-plan-prodvijeniya-.html",
