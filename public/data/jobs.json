@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T01:51:22.225063+00:00",
+  "updatedAt": "2026-11-07T02:42:19.994063+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,24 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528333/bot-farpost.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Бот фарпост",
+      "company": "FL.ru",
+      "description": "Из-за масштабного сбоя и удаления данных на хостинге Beget админка нашего бота (g92433bi.beget.tech) полностью легла, и бот на FarPost отключился. Кто может подключить или...",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Sat, 07 Nov 2026 02:02:28 GMT",
+      "publishedAt": "2026-11-07T02:02:28+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528333/bot-farpost.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528329/nujna-pomosch-s-youtube.html",
       "source": "fl_ru",
@@ -1053,24 +1071,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528215/ostavit-otlichnyiy-otzyiv-magazinu-v-internete.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528216/prilojenie-na-android.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "приложение на Android",
-      "company": "FL.ru",
-      "description": "есть веб версия приложения. уже настроено и устраивает всем нашим требованиям. необходимо сделать из этого полноценное приложение на android и желательно ios",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Fri, 06 Nov 2026 05:20:52 GMT",
-      "publishedAt": "2026-11-06T05:20:52+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528216/prilojenie-na-android.html"
     },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528023/seo-analiz-konkurentov-i-plan-prodvijeniya-.html",
