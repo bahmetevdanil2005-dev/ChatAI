@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T16:07:53.885601+00:00",
+  "updatedAt": "2026-11-07T17:07:54.073026+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,42 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528398/sdelat-sayt.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Сделать сайт",
+      "company": "FL.ru",
+      "description": "Сделать сайт по аналогии с моим наполнением",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Sat, 07 Nov 2026 16:46:49 GMT",
+      "publishedAt": "2026-11-07T16:46:49+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528398/sdelat-sayt.html"
+    },
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528395/postroenie-digaramm-v-yandex-datalens.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Построение дигарамм в yandex datalens (Бюджет: 1 000 ₽)",
+      "company": "FL.ru",
+      "description": "Построение дигарамм в yandex datalens",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Sat, 07 Nov 2026 16:46:12 GMT",
+      "publishedAt": "2026-11-07T16:46:12+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528395/postroenie-digaramm-v-yandex-datalens.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528392/vyipolnit-razdel-aov-ak-upravleniya-klimatom-v-laboratorii-na-baze-40-futovogo-konteynera.html",
       "source": "fl_ru",
@@ -1035,42 +1071,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528296/otrenderit-10-trekov-po-dorojkam-v-fl.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528291/zapisat-korotkiy-video-rolik-ugc-formata.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Записать короткий видео-ролик UGC формата (Бюджет: 1 000 ₽)",
-      "company": "FL.ru",
-      "description": "Нужно снять видео на нейтральном фоне (кровать, стол итп) с женскими руками, которые листают на айфоне сайт – сервис с интерактивными ИИ историями. Длительность 10-20с, простой...",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Fri, 06 Nov 2026 14:32:28 GMT",
-      "publishedAt": "2026-11-06T14:32:28+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528291/zapisat-korotkiy-video-rolik-ugc-formata.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528289/sozdanie-akk-i-nastroyke-claude-.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Создание акк и настройке claude (для всех)",
-      "company": "FL.ru",
-      "description": "Я работаю в блогинге и мне нужен хороший AI помощник который може работать с видео,поста и каруселями,делать аналитику аккаунтов,писать сецнарии,стратегии и тд.",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Fri, 06 Nov 2026 14:02:11 GMT",
-      "publishedAt": "2026-11-06T14:02:11+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528289/sozdanie-akk-i-nastroyke-claude-.html"
     },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528023/seo-analiz-konkurentov-i-plan-prodvijeniya-.html",
