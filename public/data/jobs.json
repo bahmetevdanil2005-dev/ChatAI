@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T11:29:44.988680+00:00",
+  "updatedAt": "2026-11-08T12:10:40.736616+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,24 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528477/sdelat-rils-.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Сделать рилс (Бюджет: 1 000 ₽)",
+      "company": "FL.ru",
+      "description": "Смонтировать рилс, чтобы было интересно и в тренде по музыке) тз точное напишу в личное сообщение ищу человека , который будет мне иногда в этом помогать и монтировать рилсы",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Sun, 08 Nov 2026 11:47:49 GMT",
+      "publishedAt": "2026-11-08T11:47:49+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528477/sdelat-rils-.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528473/razrabotat-infografiku-dlya-razdvijnyih-okon.html",
       "source": "fl_ru",
@@ -27,6 +45,24 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528473/razrabotat-infografiku-dlya-razdvijnyih-okon.html"
+    },
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528368/adresnaya-rassyilka-informatsii-po-tovaram.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Адресная рассылка информации по товарам (для всех)",
+      "company": "FL.ru",
+      "description": "Привлечь новых постоянных клиентов (электромонтажников, прорабов, бригады по ремонту квартир) и увеличить продажи кабельно-проводниковой продукции (ВВГнг-LS, ПВС и др.) в регионе (Алтайский край, Барнаул). Сделать адресную рассылку по нашей базе номеров через мессенджер и Телеграм.",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Sun, 08 Nov 2026 11:20:53 GMT",
+      "publishedAt": "2026-11-08T11:20:53+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528368/adresnaya-rassyilka-informatsii-po-tovaram.html"
     },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528470/sozdat-razvrtku-obyemnoy-bukvyi-n-iz-bumagi.html",
@@ -47,10 +83,10 @@
       "url": "https://www.fl.ru/projects/5528470/sozdat-razvrtku-obyemnoy-bukvyi-n-iz-bumagi.html"
     },
     {
-      "id": "fl_ru:https://www.fl.ru/projects/5528469/baiyshkg.html",
+      "id": "fl_ru:https://www.fl.ru/projects/5528469/nujno-razrabotat-sayt--sistemu.html",
       "source": "fl_ru",
       "sourceLabel": "FL.ru",
-      "title": "Baiysh.kg",
+      "title": "Нужно разработать сайт + систему",
       "company": "FL.ru",
       "description": "Здравствуйте! Нужно разработать сайт + систему \"Электронный журнал\" для средней школы в Кыргызстане. Что должно быть в системе: 1. ВХОД ДЛЯ РОЛЕЙ: Директор, Учитель,...",
       "budget": "Не указан",
@@ -62,7 +98,7 @@
       "publishedAt": "2026-11-08T10:37:31+00:00",
       "duration": "Не указан",
       "skills": [],
-      "url": "https://www.fl.ru/projects/5528469/baiyshkg.html"
+      "url": "https://www.fl.ru/projects/5528469/nujno-razrabotat-sayt--sistemu.html"
     },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528467/senior-seo-geo-pre-release-sayta-eu-global-bez-rf-sng.html",
@@ -81,24 +117,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528467/senior-seo-geo-pre-release-sayta-eu-global-bez-rf-sng.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528468/ya-pishu-otzyiv.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Я пишу отзыв (Бюджет: 60 ₽)",
-      "company": "FL.ru",
-      "description": "Мне нужен фото продукт",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Sun, 08 Nov 2026 10:26:06 GMT",
-      "publishedAt": "2026-11-08T10:26:06+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528468/ya-pishu-otzyiv.html"
     },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528463/marketolog----dlya-prodvijeniya-gostevogo-kompleksa-300m-do-morya-tarifyi-vse-vklyucheno-i-komfort.html",
@@ -1071,24 +1089,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528375/seo-optimizatsiya-sayta.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528376/vosstanovit-dostup-akkaunt-gugl.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Восстановить доступ аккаунт гугл",
-      "company": "FL.ru",
-      "description": "Слить все на один телефон с трех аккаунтов на диск и восстановить доступ к моему старому аккаунту из Новосибирска",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Sat, 07 Nov 2026 12:27:55 GMT",
-      "publishedAt": "2026-11-07T12:27:55+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528376/vosstanovit-dostup-akkaunt-gugl.html"
     }
   ]
 }
