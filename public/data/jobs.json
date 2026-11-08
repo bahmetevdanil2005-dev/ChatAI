@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T15:08:26.336368+00:00",
+  "updatedAt": "2026-11-08T16:04:38.665400+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -281,42 +281,6 @@
       "url": "https://www.fl.ru/projects/5528483/predostavlenie-uslugi-podklyucheniya-k-routeru-v-kyirgyizstane.html"
     },
     {
-      "id": "fl_ru:https://www.fl.ru/projects/5528481/ischem-devyshky-kotopaya-cmojet-cnyatsya-na-foto-bez-obuvi.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Ищeм девyшкy, кoтopaя cмoжет cняться на фoтo бeз oбуви.",
-      "company": "FL.ru",
-      "description": "Опыт фотопозирования не обязателен. Если вам интересно, будем рады предоставить более подробную информацию.",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Sun, 08 Nov 2026 12:11:29 GMT",
-      "publishedAt": "2026-11-08T12:11:29+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528481/ischem-devyshky-kotopaya-cmojet-cnyatsya-na-foto-bez-obuvi.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528477/sdelat-rils-.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Сделать рилс (Бюджет: 1 000 ₽)",
-      "company": "FL.ru",
-      "description": "Смонтировать рилс, чтобы было интересно и в тренде по музыке) тз точное напишу в личное сообщение ищу человека , который будет мне иногда в этом помогать и монтировать рилсы",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Sun, 08 Nov 2026 11:47:49 GMT",
-      "publishedAt": "2026-11-08T11:47:49+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528477/sdelat-rils-.html"
-    },
-    {
       "id": "fl_ru:https://www.fl.ru/projects/5528473/razrabotat-infografiku-dlya-razdvijnyih-okon.html",
       "source": "fl_ru",
       "sourceLabel": "FL.ru",
@@ -340,7 +304,7 @@
       "sourceLabel": "FL.ru",
       "title": "Адресная рассылка информации по товарам (для всех)",
       "company": "FL.ru",
-      "description": "Привлечь новых постоянных клиентов (электромонтажников, прорабов, бригады по ремонту квартир) и увеличить продажи кабельно-проводниковой продукции (ВВГнг-LS, ПВС и др.) в регионе (Алтайский край, Барнаул). Сделать адресную рассылку по нашей базе номеров через мессенджер и Телеграм.",
+      "description": "Привлечь новых постоянных клиентов (электромонтажников, прорабов, бригады по ремонту квартир) и увеличить продажи кабельно-проводниковой продукции (ВВГнг-LS, ПВС и др.) в регионе (Алтайский край, Барнаул). Сделать адресную рассылку по нашей базе номеров через мессенджеры.",
       "budget": "Не указан",
       "low": 0,
       "type": "Не указан",
@@ -1089,6 +1053,42 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528430/rasshirit-fon-1-foto.html"
+    },
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528398/sdelat-sayt.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Сделать сайт",
+      "company": "FL.ru",
+      "description": "Сделать сайт по аналогии с моим наполнением",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Sat, 07 Nov 2026 16:46:49 GMT",
+      "publishedAt": "2026-11-07T16:46:49+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528398/sdelat-sayt.html"
+    },
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528395/postroenie-digaramm-v-yandex-datalens.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Построение дигарамм в yandex datalens (Бюджет: 1 000 ₽)",
+      "company": "FL.ru",
+      "description": "Построение дигарамм в yandex datalens",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Sat, 07 Nov 2026 16:46:12 GMT",
+      "publishedAt": "2026-11-07T16:46:12+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528395/postroenie-digaramm-v-yandex-datalens.html"
     }
   ]
 }
