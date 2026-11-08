@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T04:46:11.051334+00:00",
+  "updatedAt": "2026-11-08T05:42:25.929069+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,24 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528442/vverstat-melkie-elementyi-v-uje-gotovyiy-sayt.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Вверстать мелкие элементы в уже готовый сайт (Бюджет: 110 ₽)",
+      "company": "FL.ru",
+      "description": "все покажу",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Sun, 08 Nov 2026 05:26:22 GMT",
+      "publishedAt": "2026-11-08T05:26:22+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528442/vverstat-melkie-elementyi-v-uje-gotovyiy-sayt.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528325/ustanovit-monoblok-nastroit-na-nem-assistenta-dlya-distantsionnogo-podklyucheniya.html",
       "source": "fl_ru",
@@ -1071,24 +1089,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528326/rassyilka-predlojeniy-po-el-pochte-zakazchikam-gos-tenderov.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528311/infografika-dlya-ozon-wb.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Инфографика для Ozon/WB (для всех)",
-      "company": "FL.ru",
-      "description": "Ищу дизайнера для карточек Ozon/WB, работа периодическая, по мере запуска изделий. Производим различные металлоизделия, тематика - сад/дом/дача. Опыт работы с нейросетями обязателен.",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Fri, 06 Nov 2026 21:48:22 GMT",
-      "publishedAt": "2026-11-06T21:48:22+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528311/infografika-dlya-ozon-wb.html"
     }
   ]
 }
