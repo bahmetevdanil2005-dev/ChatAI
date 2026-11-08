@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T22:05:50.325556+00:00",
+  "updatedAt": "2026-11-08T23:04:27.650093+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,42 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528430/rasshirit-fon-1-foto.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Расширить фон 1 фото (для всех)",
+      "company": "FL.ru",
+      "description": "Добрый день! Нужно расширить вертикальное фото по бокам, аккуратно продолжив исходный фон слева и справа. Важно, чтобы добавленное пространство с обеих сторон было одинаковым, а исходное фото осталось строго по центру. Необходимы два формата: 1820 × 458 px 1500 × 1120 px",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Sun, 08 Nov 2026 22:53:56 GMT",
+      "publishedAt": "2026-11-08T22:53:56+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528430/rasshirit-fon-1-foto.html"
+    },
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528536/nujno-dorabotat-deystvuyuschie-i-razrabotat-novyie-laravel-proektyi-.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Нужно доработать действующие и разработать новые Ларавел проекты",
+      "company": "FL.ru",
+      "description": "Нужно доработать действующие и разработать новые Ларавел проекты и мобильные проекты. Тех задание на проекты на 12 месяцев и все детили представим дополнительно по запросу",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Sun, 08 Nov 2026 22:31:30 GMT",
+      "publishedAt": "2026-11-08T22:31:30+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528536/nujno-dorabotat-deystvuyuschie-i-razrabotat-novyie-laravel-proektyi-.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528517/razrabotka-lendinga-dlya-trenera.html",
       "source": "fl_ru",
@@ -1053,42 +1089,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528212/sozdat-mini-internet-magazin-na-15-20-tovarov-predlojit-vizualizatsiyu-glavnoy-stranitsyi.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528396/sportivnaya-ordena-.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Спортивная ордена",
-      "company": "FL.ru",
-      "description": "Нудно сделать спортивную арену в новом образце",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Sun, 08 Nov 2026 06:15:50 GMT",
-      "publishedAt": "2026-11-08T06:15:50+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528396/sportivnaya-ordena-.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528438/razdel-sks-i-sot.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Раздел СКС и СОТ (Бюджет: 10 000 ₽)",
-      "company": "FL.ru",
-      "description": "Доделать проекты с добавлением: 1. Спецификация 2. Кабельный журнал 3. HDMI кабель от рабочего места до проекторов 4. Кабельные трассы 5. Активное оборудование 6. Видеокамеры...",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Sun, 08 Nov 2026 06:14:56 GMT",
-      "publishedAt": "2026-11-08T06:14:56+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528438/razdel-sks-i-sot.html"
     }
   ]
 }
