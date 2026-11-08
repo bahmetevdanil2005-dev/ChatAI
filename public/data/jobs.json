@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T00:00:14.462956+00:00",
+  "updatedAt": "2026-11-08T01:40:24.191859+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,24 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528325/ustanovit-monoblok-nastroit-na-nem-assistenta-dlya-distantsionnogo-podklyucheniya.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Установить моноблок, настроить на нем ассистента для дистанционного подключения (для всех)",
+      "company": "FL.ru",
+      "description": "Нужно установить моноблок, настроить на нем ассистента для дистанционного подключения по адресу г.Москва, ул. Кожевнический Вражек, 3А",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Sat, 07 Nov 2026 23:14:22 GMT",
+      "publishedAt": "2026-11-07T23:14:22+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528325/ustanovit-monoblok-nastroit-na-nem-assistenta-dlya-distantsionnogo-podklyucheniya.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528402/senior-arhitektor-mondaycom-dlya-nastroyki-biznes-protsessov-kompanii.html",
       "source": "fl_ru",
@@ -1053,24 +1071,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528326/rassyilka-predlojeniy-po-el-pochte-zakazchikam-gos-tenderov.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528325/ustanovit-monoblok-nastroit-na-nem-assistenta-dlya-distantsionnogo-podklyucheniya.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Установить моноблок, настроить на нем ассистента для дистанционного подключения",
-      "company": "FL.ru",
-      "description": "Нужно установить моноблок, настроить на нем ассистента для дистанционного подключения по адресу г.Москва, ул. Кожевнический Вражек, 3А",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Fri, 06 Nov 2026 23:14:22 GMT",
-      "publishedAt": "2026-11-06T23:14:22+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528325/ustanovit-monoblok-nastroit-na-nem-assistenta-dlya-distantsionnogo-podklyucheniya.html"
     },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528311/infografika-dlya-ozon-wb.html",
