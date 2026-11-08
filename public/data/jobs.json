@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T17:59:57.247682+00:00",
+  "updatedAt": "2026-11-08T18:41:49.090716+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -63,24 +63,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528508/sozdanie-reklamnogo-ii-video.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528507/razrabotka-internet-magazina.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Разработка интернет магазина",
-      "company": "FL.ru",
-      "description": "Нужно разработать интернет магазин по дизайн макету. На битрикс, тариф купим. Присылайте стоимость и сроки",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Sun, 08 Nov 2026 16:55:26 GMT",
-      "publishedAt": "2026-11-08T16:55:26+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528507/razrabotka-internet-magazina.html"
     },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528503/cdelat-samo-prodayuschiy-lending-.html",
@@ -1089,6 +1071,24 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528400/dizayn-i-verstka-personalnogo-glyantsevogo-jurnala.html"
+    },
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528403/trebuetsya-rabochiy-stsenariy-dlya-ii-dlya-kartochek-tovara-v-gruppe-yuvelirnyie-sergi.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Требуется рабочий сценарий для ИИ для карточек товара в группе ювелирные серьги (для всех)",
+      "company": "FL.ru",
+      "description": "Требуется рабочий сценарий для ИИ для карточек товара в группе ювелирные серьги.Не можем сами сделать чтоб было не криво и естественно.Остальные украшения все окей.Будет +- 5-7",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Sat, 07 Nov 2026 22:56:36 GMT",
+      "publishedAt": "2026-11-07T22:56:36+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528403/trebuetsya-rabochiy-stsenariy-dlya-ii-dlya-kartochek-tovara-v-gruppe-yuvelirnyie-sergi.html"
     }
   ]
 }
