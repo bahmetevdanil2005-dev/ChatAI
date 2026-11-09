@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T18:47:45.936009+00:00",
+  "updatedAt": "2026-11-09T19:50:29.838083+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,42 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528648/nujno-razrabotat-dizayn-sayta-na-tilde-iz-12-blokov.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Нужно разработать дизайн сайта на Тильде из 12 блоков",
+      "company": "FL.ru",
+      "description": "Нужно сделать сайт для турагентства на Тильде из 12 блоков, ТЗ во вложении к задаче, сроки 2 недели, нужен дизайн и сразу верстка.",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Mon, 09 Nov 2026 19:02:17 GMT",
+      "publishedAt": "2026-11-09T19:02:17+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528648/nujno-razrabotat-dizayn-sayta-na-tilde-iz-12-blokov.html"
+    },
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528654/ischu-spetsialista-kotoryiy-nauchit-sozdavat-realistichnyie-ii-video-po-moim-knigam.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Ищу специалиста, который научит создавать реалистичные ИИ-видео по моим книгам",
+      "company": "FL.ru",
+      "description": "Хочу научиться самостоятельно создавать кинематографичные тизеры и сцены по собственным литературным произведениям. Нужен человек, который действительно умеет делать...",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Mon, 09 Nov 2026 19:01:25 GMT",
+      "publishedAt": "2026-11-09T19:01:25+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528654/ischu-spetsialista-kotoryiy-nauchit-sozdavat-realistichnyie-ii-video-po-moim-knigam.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528653/realizovat-gotovyiy-dizayn-na-bitriks-internet-magazin-i-nastroit-vyigruzku-kataloga-iz-1s-unf.html",
       "source": "fl_ru",
@@ -22,8 +58,8 @@
       "type": "Не указан",
       "level": "Любой",
       "category": "Другое",
-      "posted": "Mon, 09 Nov 2026 17:44:06 GMT",
-      "publishedAt": "2026-11-09T17:44:06+00:00",
+      "posted": "Mon, 09 Nov 2026 19:00:28 GMT",
+      "publishedAt": "2026-11-09T19:00:28+00:00",
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528653/realizovat-gotovyiy-dizayn-na-bitriks-internet-magazin-i-nastroit-vyigruzku-kataloga-iz-1s-unf.html"
@@ -1053,42 +1089,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528571/sdelat-ii-agenta.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528569/poisk-i-narezka-stsen-iz-filmov-i-serialov-10-fragmentov.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Поиск и нарезка сцен из фильмов и сериалов (10 фрагментов) (Бюджет: 5 000 ₽)",
-      "company": "FL.ru",
-      "description": "Необходимо подобрать и нарезать около 10 коротких видеофрагментов из художественных фильмов и сериалов. Задачи: * Найти нужные сцены по названию фильма и описанию ситуации. *...",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Mon, 09 Nov 2026 09:04:36 GMT",
-      "publishedAt": "2026-11-09T09:04:36+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528569/poisk-i-narezka-stsen-iz-filmov-i-serialov-10-fragmentov.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528568/razrabotka-ai-sistemyi-na-n8n-dlya-ozon-wildberries-i-yandeks-marketa-pod-klyuch.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Разработка AI-системы на n8n для Ozon, Wildberries и Яндекс Маркета под ключ (для всех)",
-      "company": "FL.ru",
-      "description": "Разработка AI-системы автоматизации маркетплейсов на n8n под ключ Ищем опытного разработчика или небольшую команду для реализации комплексной системы автоматизации работы с маркетплейсами. Мы занимаемся производством и продажей православной литературы, календарей, церковной утвари и других товаров религиозного назначения. Работаем на Ozon, Wildberries и Яндекс Маркете через несколько кабинетов продавцов и юридических лиц. Часть системы уже разработана на n8n. Необходимо изучить существующую архитектуру, использовать готовые наработки и довести проект до полноценного рабочего решения. 1. Единая база товаров Централизованная база данных, объединяющая информацию из разных источников: * Коды 1С, артикулы, SKU маркетплейсов, штрихкоды, ISBN. * Названия, описания, характеристики, размеры, вес, комплектация. * Цены, себестоимость, остатки. * Сопоставление одинаковых товаров между кабинетами и площадками. * Автоматическое обновление и дополнение характеристик. * Парсинг сайтов православных издательств, производителей и поставщиков для обогащения базы. * Проверка книг по ISBN, других товаров — по характеристикам и параметрам. * Поддержка разных категорий товаров с различными наборами характ",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Mon, 09 Nov 2026 09:00:41 GMT",
-      "publishedAt": "2026-11-09T09:00:41+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528568/razrabotka-ai-sistemyi-na-n8n-dlya-ozon-wildberries-i-yandeks-marketa-pod-klyuch.html"
     }
   ]
 }
