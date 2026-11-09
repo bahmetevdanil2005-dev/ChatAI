@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T19:50:29.838083+00:00",
+  "updatedAt": "2026-11-09T20:45:18.589171+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,24 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528665/smeta-v-tsn-.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Смета в ТСН",
+      "company": "FL.ru",
+      "description": "До 50 руб/поз",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Mon, 09 Nov 2026 19:34:40 GMT",
+      "publishedAt": "2026-11-09T19:34:40+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528665/smeta-v-tsn-.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528648/nujno-razrabotat-dizayn-sayta-na-tilde-iz-12-blokov.html",
       "source": "fl_ru",
@@ -1071,24 +1089,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528572/oplatit-antidetekt-brauzer-vision-cherez-kriptovalyutu.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528571/sdelat-ii-agenta.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Сделать ИИ Агента",
-      "company": "FL.ru",
-      "description": "Сделать ИИ агента на базе N8N, подключить Firecrawl, подключить контур сбис rusprofile + тендерные площадки Хочу чтобы ИИ агент отвечал на вопросы из разряда -у каких...",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Mon, 09 Nov 2026 09:35:25 GMT",
-      "publishedAt": "2026-11-09T09:35:25+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528571/sdelat-ii-agenta.html"
     }
   ]
 }
