@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T21:43:39.551507+00:00",
+  "updatedAt": "2026-11-09T22:39:34.176777+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,24 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528511/napisanie-i-razmeschenie-gramotnyih-otzyivov-k-tovaram.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Написание и размещение грамотных отзывов к товарам (для всех)",
+      "company": "FL.ru",
+      "description": "Написать и разместить отзывы к товарам на сайт",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Mon, 09 Nov 2026 21:25:59 GMT",
+      "publishedAt": "2026-11-09T21:25:59+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528511/napisanie-i-razmeschenie-gramotnyih-otzyivov-k-tovaram.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528670/laravel-proektyi-multivendora-dlya-sener-ispolniteley.html",
       "source": "fl_ru",
@@ -1071,24 +1089,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528574/razrabotka-kastomnoy-crm-i-mobilnogo-prilojeniya-dlya-servisnogo-tsentra-s-integratsiey-ii-openai-api.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528572/oplatit-antidetekt-brauzer-vision-cherez-kriptovalyutu.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Оплатить антидетект браузер Vision через криптовалюту (Бюджет: 3 500 ₽)",
-      "company": "FL.ru",
-      "description": "Зайдите на мой аккаунт и купите подписку на 1 месяц за 29$",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Mon, 09 Nov 2026 09:35:52 GMT",
-      "publishedAt": "2026-11-09T09:35:52+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528572/oplatit-antidetekt-brauzer-vision-cherez-kriptovalyutu.html"
     }
   ]
 }
