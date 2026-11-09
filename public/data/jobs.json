@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T00:02:10.743915+00:00",
+  "updatedAt": "2026-11-09T01:44:18.354616+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,24 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528536/nujno-dorabotat-deystvuyuschie-i-razrabotat-novyie-laravel-proektyi-.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Нужно доработать действующие и разработать новые Ларавел проекты",
+      "company": "FL.ru",
+      "description": "Нужно доработать действующие и разработать новые Ларавел проекты и мобильные проекты. Тех задание на проекты на 12 месяцев и все детили представим дополнительно по запросу",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Mon, 09 Nov 2026 00:40:21 GMT",
+      "publishedAt": "2026-11-09T00:40:21+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528536/nujno-dorabotat-deystvuyuschie-i-razrabotat-novyie-laravel-proektyi-.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528534/dizayn-1-stranitsyi-dlya-sayta-fotografa.html",
       "source": "fl_ru",
@@ -99,24 +117,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528430/rasshirit-fon-1-foto.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528536/nujno-dorabotat-deystvuyuschie-i-razrabotat-novyie-laravel-proektyi-.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Нужно доработать действующие и разработать новые Ларавел проекты",
-      "company": "FL.ru",
-      "description": "Нужно доработать действующие и разработать новые Ларавел проекты и мобильные проекты. Тех задание на проекты на 12 месяцев и все детили представим дополнительно по запросу",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Sun, 08 Nov 2026 22:31:30 GMT",
-      "publishedAt": "2026-11-08T22:31:30+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528536/nujno-dorabotat-deystvuyuschie-i-razrabotat-novyie-laravel-proektyi-.html"
     },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528517/razrabotka-lendinga-dlya-trenera.html",
