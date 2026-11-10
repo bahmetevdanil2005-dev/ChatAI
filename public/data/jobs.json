@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T16:44:38.821360+00:00",
+  "updatedAt": "2026-11-10T17:41:32.119954+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,24 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528787/razrabotka-proekta-eom.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Разработка проекта ЭОМ",
+      "company": "FL.ru",
+      "description": "Требуется разработка проекта ЭОМ для центра культурного развития площадью 1500-1700м2. Обе стадии. Сроки от вас.",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Tue, 10 Nov 2026 17:02:52 GMT",
+      "publishedAt": "2026-11-10T17:02:52+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528787/razrabotka-proekta-eom.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528779/verstka-maketov-dlya-tipografii.html",
       "source": "fl_ru",
@@ -1035,24 +1053,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528690/vyipolnit-proekt.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528689/nauchit-rabotat-v-1s-unf-nastroit-otchetyi.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Научить работать в 1С унф, настроить отчеты (Бюджет: 5 000 ₽)",
-      "company": "FL.ru",
-      "description": "Ищем человека онлайн, который покажет как работать в 1С Управление нашей фирмой, как правильно заносить документы в программу и как настраивать отчеты. Если вы умеете...",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Tue, 10 Nov 2026 06:01:20 GMT",
-      "publishedAt": "2026-11-10T06:01:20+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528689/nauchit-rabotat-v-1s-unf-nastroit-otchetyi.html"
     },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5355552/nujen-bot.html",
