@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T18:41:24.000177+00:00",
+  "updatedAt": "2026-11-10T19:45:28.518018+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,24 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528800/litsenziya-bitriks-malyiy-biznes.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Лицензия Битрикс малый бизнес",
+      "company": "FL.ru",
+      "description": "Интересует интернет магазин на Битрикс Малый бизнес",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Tue, 10 Nov 2026 19:14:45 GMT",
+      "publishedAt": "2026-11-10T19:14:45+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528800/litsenziya-bitriks-malyiy-biznes.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528792/razmetka-izobrajeniy-i-video-segmentatsiya-obyektov-i-kartyi-glubinyi.html",
       "source": "fl_ru",
@@ -153,24 +171,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528778/obnovlenie-dizayna-sayta.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528777/nujno-sozdat-sem-izobrajeniy-jivotnyih-po-imeyuschemusya-primeru.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Нужно создать семь изображений животных по имеющемуся примеру",
-      "company": "FL.ru",
-      "description": "Нужно создать семь изображений животных по имеющемуся примеру енота (см.вложение). - лиса - заяц (в каждой лапе должно быть по морковке. шкурка должна быть светло-горчичного...",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Tue, 10 Nov 2026 15:38:48 GMT",
-      "publishedAt": "2026-11-10T15:38:48+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528777/nujno-sozdat-sem-izobrajeniy-jivotnyih-po-imeyuschemusya-primeru.html"
     },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528776/3d-model-kosmicheskogo-korablya-dlya-igryi.html",
