@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T04:45:46.641126+00:00",
+  "updatedAt": "2026-11-10T05:47:25.874836+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -209,24 +209,6 @@
       "url": "https://www.fl.ru/projects/5528662/podgotovit-rassyilku-po-bolnitsam-rf.html"
     },
     {
-      "id": "fl_ru:https://www.fl.ru/projects/5528663/kuplyu-do-2000-chasov-rabotyi-senera-dlya-rabota-nad-proektami-laravel.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Куплю до 2000 часов работы сеньера для работа над проектами Ларавел",
-      "company": "FL.ru",
-      "description": "Распределю проекты на 2000 часов команде исполнителей желательно уровня сеньер или отдельному исполнителю Проекты будут выдаваться по пакетно на 100 - 200 часов. В комплект...",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Tue, 10 Nov 2026 03:05:09 GMT",
-      "publishedAt": "2026-11-10T03:05:09+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528663/kuplyu-do-2000-chasov-rabotyi-senera-dlya-rabota-nad-proektami-laravel.html"
-    },
-    {
       "id": "fl_ru:https://www.fl.ru/projects/5528669/sozdanie-webp-fotografiy.html",
       "source": "fl_ru",
       "sourceLabel": "FL.ru",
@@ -412,7 +394,7 @@
       "sourceLabel": "FL.ru",
       "title": "Нужен омниканальный чат-бот для бронирования отеля с интеграциями amoCRM и MeHotel",
       "company": "FL.ru",
-      "description": "Нужен бот, который будет общаться с гостями в мессенджерах (телеграм, вотсапп, вк, чат на сайте) подключённых к amoCRM, и помогать забронировать номер прямо в переписке....",
+      "description": "Нужен бот, который будет общаться с гостями в мессенджерах (телеграм, вк, чат на сайте) подключённых к amoCRM, и помогать забронировать номер прямо в переписке. Конкретный...",
       "budget": "Не указан",
       "low": 0,
       "type": "Не указан",
@@ -1089,6 +1071,24 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528593/ux-kopirayting-ponyatnyih-tekstov-pro-yuridicheskie-riski-pokupki-avto.html"
+    },
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528594/ischem-repetitora-po-angliyskomu.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "Ищем репетитора по английскому",
+      "company": "FL.ru",
+      "description": "Опыт преподавания взрослым обязателен. Если вам интересно, будем рады предоставить более подробную информацию.",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Mon, 09 Nov 2026 11:42:37 GMT",
+      "publishedAt": "2026-11-09T11:42:37+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528594/ischem-repetitora-po-angliyskomu.html"
     }
   ]
 }
