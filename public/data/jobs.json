@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T17:50:22.901453+00:00",
+  "updatedAt": "2026-11-11T18:48:41.149849+00:00",
   "sources": [
     {
       "id": "fl_ru",
@@ -10,6 +10,24 @@
     }
   ],
   "jobs": [
+    {
+      "id": "fl_ru:https://www.fl.ru/projects/5528912/nujen-otchet-po-injenerno-geodezicheskim-izyiskaniyam.html",
+      "source": "fl_ru",
+      "sourceLabel": "FL.ru",
+      "title": "нужен отчет по инженерно-геодезическим изысканиям (Бюджет: 10 000 ₽)",
+      "company": "FL.ru",
+      "description": "нужен отчет по инженерно-геодезическим изысканиям",
+      "budget": "Не указан",
+      "low": 0,
+      "type": "Не указан",
+      "level": "Любой",
+      "category": "Другое",
+      "posted": "Wed, 11 Nov 2026 18:21:30 GMT",
+      "publishedAt": "2026-11-11T18:21:30+00:00",
+      "duration": "Не указан",
+      "skills": [],
+      "url": "https://www.fl.ru/projects/5528912/nujen-otchet-po-injenerno-geodezicheskim-izyiskaniyam.html"
+    },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5528901/napisat-originalnyiy-lor-i-sistemu-syujetnyih-sobyitiy-dlya-servera-minecraft-100200-igrokov.html",
       "source": "fl_ru",
@@ -1053,24 +1071,6 @@
       "duration": "Не указан",
       "skills": [],
       "url": "https://www.fl.ru/projects/5528814/sdelat-odnostranichnyiy-sayt-v-tilde.html"
-    },
-    {
-      "id": "fl_ru:https://www.fl.ru/projects/5528816/taynyiy-pokupatel---proverka-narujnoy-reklamyi-v-aptekah-rostova.html",
-      "source": "fl_ru",
-      "sourceLabel": "FL.ru",
-      "title": "Тайный покупатель / Проверка наружной рекламы в аптеках Ростова",
-      "company": "FL.ru",
-      "description": "Что нужно сделать: 1. Посетить все 14 аптек по указанным адресам. 2. Убедиться, что по каждому адресу находится нужная аптека. 3. Проверить наличие рекламного плаката на окне...",
-      "budget": "Не указан",
-      "low": 0,
-      "type": "Не указан",
-      "level": "Любой",
-      "category": "Другое",
-      "posted": "Wed, 11 Nov 2026 05:03:20 GMT",
-      "publishedAt": "2026-11-11T05:03:20+00:00",
-      "duration": "Не указан",
-      "skills": [],
-      "url": "https://www.fl.ru/projects/5528816/taynyiy-pokupatel---proverka-narujnoy-reklamyi-v-aptekah-rostova.html"
     },
     {
       "id": "fl_ru:https://www.fl.ru/projects/5527761/poisk-postavschikov-motornogo-masla-v-bochkah-i-sbor-materialov-na-produktsiyu.html",
